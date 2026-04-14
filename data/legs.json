@@ -1,0 +1,68 @@
+[
+  {
+    "id": "bodyweight-squat",
+    "name": "Bodyweight Squat",
+    "equipment": ["Bodyweight"],
+    "primaryMuscles": ["Quadriceps", "Glutes"],
+    "secondaryMuscles": ["Hamstrings", "Core", "Calves"],
+    "sets": 3,
+    "repsMin": 15,
+    "repsMax": 20,
+    "instructions": "Stand with feet shoulder-width apart and toes slightly turned out. Push your hips back and bend your knees to lower yourself until your thighs are parallel to the floor, then drive through your heels to stand back up."
+  },
+  {
+    "id": "bodyweight-lunge",
+    "name": "Bodyweight Lunge",
+    "equipment": ["Bodyweight"],
+    "primaryMuscles": ["Quadriceps", "Glutes"],
+    "secondaryMuscles": ["Hamstrings", "Core", "Calves"],
+    "sets": 3,
+    "repsMin": 10,
+    "repsMax": 15,
+    "instructions": "Stand with feet together. Step one foot forward and lower your back knee toward the floor until both knees are at roughly 90 degrees, then push through your front foot to return to the starting position. Alternate legs each rep."
+  },
+  {
+    "id": "barbell-squat",
+    "name": "Barbell Squat",
+    "equipment": ["Barbell", "Rack"],
+    "primaryMuscles": ["Quadriceps", "Glutes"],
+    "secondaryMuscles": ["Hamstrings", "Core", "Calves", "Erector Spinae"],
+    "sets": 4,
+    "repsMin": 5,
+    "repsMax": 8,
+    "instructions": "Position a barbell across your upper back and unrack it. Stand with feet shoulder-width apart and toes slightly out. Push your hips back and bend your knees to lower until your thighs are parallel to the floor, then drive through your heels to stand back up."
+  },
+  {
+    "id": "dumbbell-lunge",
+    "name": "Dumbbell Lunge",
+    "equipment": ["Dumbbells"],
+    "primaryMuscles": ["Quadriceps", "Glutes"],
+    "secondaryMuscles": ["Hamstrings", "Core", "Calves"],
+    "sets": 3,
+    "repsMin": 10,
+    "repsMax": 12,
+    "instructions": "Stand holding a dumbbell in each hand at your sides. Step one foot forward and lower your back knee toward the floor until both knees are at roughly 90 degrees, then push through your front foot to return to the starting position. Alternate legs each rep."
+  },
+  {
+    "id": "hip-thrust",
+    "name": "Hip Thrust",
+    "equipment": ["Barbell", "Bench"],
+    "primaryMuscles": ["Glutes"],
+    "secondaryMuscles": ["Hamstrings", "Core"],
+    "sets": 4,
+    "repsMin": 8,
+    "repsMax": 12,
+    "instructions": "Sit on the floor with your upper back against a bench and a barbell across your hips. Plant your feet flat on the floor hip-width apart. Drive through your heels to thrust your hips upward until your body forms a straight line from shoulders to knees, then lower back down."
+  },
+  {
+    "id": "hip-bridge",
+    "name": "Hip Bridge",
+    "equipment": ["Bodyweight"],
+    "primaryMuscles": ["Glutes"],
+    "secondaryMuscles": ["Hamstrings", "Core"],
+    "sets": 3,
+    "repsMin": 15,
+    "repsMax": 20,
+    "instructions": "Lie flat on your back with knees bent and feet flat on the floor hip-width apart. Drive through your heels to lift your hips off the floor until your body forms a straight line from shoulders to knees, squeeze your glutes at the top, then lower back down."
+  }
+]

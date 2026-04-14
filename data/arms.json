@@ -1,0 +1,90 @@
+[
+  {
+    "id": "dumbbell-bicep-curl",
+    "name": "Dumbbell Bicep Curl",
+    "equipment": ["Dumbbells"],
+    "primaryMuscles": ["Biceps Brachii"],
+    "secondaryMuscles": ["Brachialis", "Brachioradialis"],
+    "sets": 3,
+    "repsMin": 10,
+    "repsMax": 12,
+    "instructions": "Stand holding a dumbbell in each hand with palms facing forward. Keeping your elbows pinned to your sides, curl both dumbbells up toward your shoulders, then lower them back down slowly."
+  },
+  {
+    "id": "barbell-bicep-curl",
+    "name": "Barbell Bicep Curl",
+    "equipment": ["Barbell"],
+    "primaryMuscles": ["Biceps Brachii"],
+    "secondaryMuscles": ["Brachialis", "Brachioradialis"],
+    "sets": 4,
+    "repsMin": 8,
+    "repsMax": 10,
+    "instructions": "Stand holding a barbell with an underhand grip at shoulder-width. Keeping your elbows stationary at your sides, curl the bar up toward your chest, then lower it back down with control."
+  },
+  {
+    "id": "preacher-curl",
+    "name": "Preacher Curl",
+    "equipment": ["Barbell", "Preacher Bench"],
+    "primaryMuscles": ["Biceps Brachii"],
+    "secondaryMuscles": ["Brachialis"],
+    "sets": 3,
+    "repsMin": 10,
+    "repsMax": 12,
+    "instructions": "Sit at a preacher bench and rest the back of your upper arms on the pad. Grip the bar with an underhand grip and curl it up toward your shoulders, then lower it slowly until your arms are fully extended."
+  },
+  {
+    "id": "skull-crusher",
+    "name": "Skull Crusher",
+    "equipment": ["Barbell", "Bench"],
+    "primaryMuscles": ["Triceps Brachii"],
+    "secondaryMuscles": [],
+    "sets": 3,
+    "repsMin": 10,
+    "repsMax": 12,
+    "instructions": "Lie flat on a bench holding a barbell with an overhand grip directly above your chest. Keeping your upper arms stationary, bend your elbows to lower the bar toward your forehead, then press back up to the starting position."
+  },
+  {
+    "id": "tricep-pushdown",
+    "name": "Tricep Pushdown",
+    "equipment": ["Cable Machine"],
+    "primaryMuscles": ["Triceps Brachii"],
+    "secondaryMuscles": [],
+    "sets": 3,
+    "repsMin": 12,
+    "repsMax": 15,
+    "instructions": "Stand at a cable machine with a rope or bar attachment set at the top. Keeping your elbows pinned to your sides, push the attachment downward until your arms are fully extended, then return slowly."
+  },
+  {
+    "id": "hammer-curl",
+    "name": "Hammer Curl",
+    "equipment": ["Dumbbells"],
+    "primaryMuscles": ["Brachialis", "Brachioradialis"],
+    "secondaryMuscles": ["Biceps Brachii"],
+    "sets": 3,
+    "repsMin": 10,
+    "repsMax": 12,
+    "instructions": "Stand holding a dumbbell in each hand with palms facing each other. Keeping your elbows pinned to your sides, curl both dumbbells up toward your shoulders without rotating your wrists, then lower them back down."
+  },
+  {
+    "id": "tricep-overhead-extension",
+    "name": "Tricep Overhead Extension",
+    "equipment": ["Dumbbell"],
+    "primaryMuscles": ["Triceps Brachii"],
+    "secondaryMuscles": [],
+    "sets": 3,
+    "repsMin": 10,
+    "repsMax": 12,
+    "instructions": "Stand or sit holding a single dumbbell with both hands overhead, arms fully extended. Keeping your upper arms close to your head, lower the dumbbell behind your head by bending your elbows, then press back up."
+  },
+  {
+    "id": "close-grip-bench-press",
+    "name": "Close Grip Bench Press",
+    "equipment": ["Barbell", "Bench", "Rack"],
+    "primaryMuscles": ["Triceps Brachii"],
+    "secondaryMuscles": ["Pectoralis Major", "Anterior Deltoid"],
+    "sets": 4,
+    "repsMin": 8,
+    "repsMax": 10,
+    "instructions": "Lie flat on a bench and grip the barbell with hands about shoulder-width apart. Lower the bar to your lower chest, keeping your elbows tucked close to your body, then press back up."
+  }
+]

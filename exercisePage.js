@@ -41,7 +41,7 @@ function renderExercise(exercise) {
     primaryMuscleHeader.innerText = "Primary Muscles";
 
     const primaryMuscle = document.createElement("p");
-    primary.innerText = exercise.primaryMuscles.join(", ");
+    primaryMuscle.innerText = exercise.primaryMuscles.join(", ");
 
     const secondaryMuscleHeader = document.createElement("h2");
     secondaryMuscleHeader.innerText = "Secondary Muscles";

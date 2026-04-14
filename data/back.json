@@ -1,0 +1,57 @@
+[
+  {
+    "id": "lat-pulldown",
+    "name": "Lat Pulldown",
+    "equipment": ["Cable Machine", "Lat Pulldown Bar"],
+    "primaryMuscles": ["Latissimus Dorsi"],
+    "secondaryMuscles": ["Biceps", "Rear Deltoid", "Rhomboids"],
+    "sets": 4,
+    "repsMin": 8,
+    "repsMax": 12,
+    "instructions": "Sit at a lat pulldown machine and grip the bar slightly wider than shoulder-width. Pull the bar down to your upper chest while leaning back slightly, then return it slowly to the starting position."
+  },
+  {
+    "id": "seated-cable-row",
+    "name": "Seated Cable Row",
+    "equipment": ["Cable Machine", "Row Attachment"],
+    "primaryMuscles": ["Latissimus Dorsi", "Rhomboids"],
+    "secondaryMuscles": ["Biceps", "Rear Deltoid", "Trapezius"],
+    "sets": 4,
+    "repsMin": 8,
+    "repsMax": 12,
+    "instructions": "Sit at a cable row machine with your feet on the platform and knees slightly bent. Pull the handle into your lower abdomen while keeping your back straight and chest up, then return slowly."
+  },
+  {
+    "id": "barbell-row",
+    "name": "Barbell Row",
+    "equipment": ["Barbell"],
+    "primaryMuscles": ["Latissimus Dorsi", "Rhomboids"],
+    "secondaryMuscles": ["Biceps", "Rear Deltoid", "Trapezius", "Core"],
+    "sets": 4,
+    "repsMin": 6,
+    "repsMax": 10,
+    "instructions": "Hinge at the hips with a slight bend in your knees and grip the barbell just outside shoulder-width. Pull the bar into your lower abdomen, squeezing your shoulder blades together at the top, then lower it back down with control."
+  },
+  {
+    "id": "dumbbell-row",
+    "name": "Dumbbell Row",
+    "equipment": ["Dumbbell", "Bench"],
+    "primaryMuscles": ["Latissimus Dorsi"],
+    "secondaryMuscles": ["Biceps", "Rear Deltoid", "Rhomboids"],
+    "sets": 3,
+    "repsMin": 8,
+    "repsMax": 12,
+    "instructions": "Place one knee and hand on a bench for support. With your other hand, pull a dumbbell up toward your hip, keeping your elbow close to your body and your back flat, then lower it slowly."
+  },
+  {
+    "id": "pull-up",
+    "name": "Pull-Up",
+    "equipment": ["Pull-Up Bar"],
+    "primaryMuscles": ["Latissimus Dorsi"],
+    "secondaryMuscles": ["Biceps", "Rear Deltoid", "Core"],
+    "sets": 3,
+    "repsMin": 5,
+    "repsMax": 10,
+    "instructions": "Hang from a pull-up bar with an overhand grip slightly wider than shoulder-width. Pull yourself up until your chin clears the bar, then lower yourself back down fully before the next rep."
+  }
+]
