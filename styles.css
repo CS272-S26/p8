@@ -10,3 +10,16 @@ h2 {
     height: 300px;
     fit: cover; 
 }
+
+@media (max-width: 900px) {
+  .gym-background-pic {
+    height: 200px; 
+  }
+}
+
+@media (max-width: 576px) {
+  .gym-background-pic {
+    height: 100px; 
+  }
+}
+
