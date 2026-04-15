@@ -15,44 +15,60 @@
 <body class="m-2">
     <!-- Navbar -->
     <style>
-    .navbar {
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333333;
-    }
-    .navbar li {
-        float: left;
-        list-style-type: none;
-    }
-    .navbar li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-    .navbar li a:hover {
-        background-color: #111111;
-    }
-    .navbar li a.active {
-        background-color: #111111;
-    }
+        .navbar {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333333;
+        }
+
+        .navbar li {
+            float: left;
+            list-style-type: none;
+        }
+
+        .navbar li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover {
+            background-color: #111111;
+        }
+
+        .navbar li a.active {
+            background-color: #111111;
+        }
     </style>
 
-    <ul class="navbar">
-    <li><a href="index.html" class="active">Home</a></li>
-    <li><a href="chestPage.html">Chest</a></li>
-    <li><a href="backPage.html">Back</a></li>
-    <li><a href="shouldersPage.html">Shoulders</a></li>
-    <li><a href="armsPage.html">Arms</a></li>
-    <li><a href="legsPage.html">Legs</a></li>
-    <li><a href="corePage.html">Core</a></li>
-    <li><a href="workoutGeneratorPage.html">Generator</a></li>
+    <ul class="navbar rounded">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="chestPage.html">Chest</a></li>
+        <li><a href="backPage.html">Back</a></li>
+        <li><a href="shouldersPage.html">Shoulders</a></li>
+        <li><a href="armsPage.html">Arms</a></li>
+        <li><a href="legsPage.html">Legs</a></li>
+        <li><a href="corePage.html">Core</a></li>
+        <li><a href="workoutGeneratorPage.html">Generator</a></li>
     </ul>
     <!-- Navbar -->
 
-    <h1>Page Title</h1>
+    <div class="row align-items-center justify-content-center mt-1">
+        <div class="col-5 flex-column flex-column justify-content-center p-4"> 
+        <h6>build your body</h6>
+        <h1 >Perfect Your Form</h1>
+        <p class="text-muted mb-4">
+    Train smarter with guided workouts, proper technique, and structured plans designed to help you grow stronger every day.</p>
+        <button class="btn btn-secondary btn-sm rounded-2 px-4"> learn more</button>
+        </div>
+
+        <div class="mainpage-banner col-7 d-flex justify-content-center align-items-center">
+            <img class="gym-background-pic rounded-2 " alt="gym-background-pic" src="./data/pictures/gym-background.jpg" />
+        </div>
+    </div>
     <p>Stuff about working out</p>
     <div class="container-fluid">
         <div class="row" id="book-list">

@@ -22,6 +22,15 @@ function renderExercise(exercise) {
     const title = document.createElement("h1");
     title.innerText = exercise.name;
 
+    const newImgNode = document.createElement("img");
+    newImgNode.src = exercise.pictureUrl; 
+    newImgNode.alt = exercise.name;
+    newImgNode.style.height = "300px";
+    newImgNode.style.objectFit = "cover";
+    const wrapper = document.createElement("div");
+    wrapper.className = "exercise-card";
+    wrapper.appendChild(newImgNode);
+
     const instructions = document.createElement("p");
     instructions.innerText = exercise.instructions;
 
@@ -50,6 +59,7 @@ function renderExercise(exercise) {
     secondaryMuscle.innerText = exercise.secondaryMuscles.join(", ");
 
     exerciseContainer.appendChild(title);
+    exerciseContainer.appendChild(newImgNode);
     exerciseContainer.appendChild(instructions);
     exerciseContainer.appendChild(setsHeader);
     exerciseContainer.appendChild(sets);
