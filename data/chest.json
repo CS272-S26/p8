@@ -8,7 +8,8 @@
     "sets": 4,
     "repsMin": 6,
     "repsMax": 10,
-    "instructions": "Lay flat on a bench. Lower the bar slowly down to your sternum and press upwards in a controlled manner."
+    "instructions": "Lay flat on a bench. Lower the bar slowly down to your sternum and press upwards in a controlled manner.",
+    "pictureUrl": "https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg"
   },
   {
     "id": "dumbbell-bench-press",
@@ -19,7 +20,8 @@
     "sets": 4,
     "repsMin": 8,
     "repsMax": 12,
-    "instructions": "Lie flat on a bench holding a dumbbell in each hand at chest level. Press the dumbbells up and slightly inward until your arms are fully extended, then lower them back down slowly."
+    "instructions": "Lie flat on a bench holding a dumbbell in each hand at chest level. Press the dumbbells up and slightly inward until your arms are fully extended, then lower them back down slowly.",
+    "pictureUrl": "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg"
   },
   {
     "id": "incline-barbell-bench-press",
@@ -30,7 +32,8 @@
     "sets": 4,
     "repsMin": 6,
     "repsMax": 10,
-    "instructions": "Set the bench to 30-45 degrees. Unrack the bar and lower it to your upper chest, then press back up in a controlled manner."
+    "instructions": "Set the bench to 30-45 degrees. Unrack the bar and lower it to your upper chest, then press back up in a controlled manner.",
+    "pictureUrl": "https://images.pexels.com/photos/3837757/pexels-photo-3837757.jpeg"
   },
   {
     "id": "incline-dumbbell-bench-press",
@@ -41,7 +44,8 @@
     "sets": 3,
     "repsMin": 8,
     "repsMax": 12,
-    "instructions": "Set the bench to 30-45 degrees. Hold a dumbbell in each hand at shoulder level and press upward, bringing the dumbbells slightly together at the top before lowering back down."
+    "instructions": "Set the bench to 30-45 degrees. Hold a dumbbell in each hand at shoulder level and press upward, bringing the dumbbells slightly together at the top before lowering back down.",
+    "pictureUrl": "https://images.pexels.com/photos/1552106/pexels-photo-1552106.jpeg"
   },
   {
     "id": "dumbbell-chest-fly",
@@ -52,7 +56,8 @@
     "sets": 3,
     "repsMin": 10,
     "repsMax": 15,
-    "instructions": "Lie flat on a bench with a dumbbell in each hand held above your chest, palms facing each other. With a slight bend in your elbows, lower the dumbbells out to your sides in a wide arc until you feel a stretch in your chest, then bring them back up."
+    "instructions": "Lie flat on a bench with a dumbbell in each hand held above your chest, palms facing each other. With a slight bend in your elbows, lower the dumbbells out to your sides in a wide arc until you feel a stretch in your chest, then bring them back up.",
+    "pictureUrl": "https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg"
   },
   {
     "id": "cable-chest-fly",
@@ -63,7 +68,8 @@
     "sets": 3,
     "repsMin": 12,
     "repsMax": 15,
-    "instructions": "Set the pulleys to shoulder height. Stand in the center and grip a handle in each hand. With a slight forward lean and soft bend in your elbows, bring the handles together in a wide arc in front of your chest, then return slowly."
+    "instructions": "Set the pulleys to shoulder height. Stand in the center and grip a handle in each hand. With a slight forward lean and soft bend in your elbows, bring the handles together in a wide arc in front of your chest, then return slowly.",
+    "pictureUrl": "https://images.pexels.com/photos/4498606/pexels-photo-4498606.jpeg"
   },
   {
     "id": "push-up",
@@ -74,7 +80,8 @@
     "sets": 3,
     "repsMin": 10,
     "repsMax": 20,
-    "instructions": "Start in a high plank with hands slightly wider than shoulder-width. Lower your chest to just above the floor keeping your body in a straight line, then press back up."
+    "instructions": "Start in a high plank with hands slightly wider than shoulder-width. Lower your chest to just above the floor keeping your body in a straight line, then press back up.",
+    "pictureUrl": "https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg"
   },
   {
     "id": "dips",
@@ -85,6 +92,7 @@
     "sets": 3,
     "repsMin": 8,
     "repsMax": 12,
-    "instructions": "Grip the parallel bars and support yourself with arms extended. Lean your torso slightly forward and lower yourself until your upper arms are parallel to the floor, then press back up."
+    "instructions": "Grip the parallel bars and support yourself with arms extended. Lean your torso slightly forward and lower yourself until your upper arms are parallel to the floor, then press back up.",
+    "pictureUrl": "https://images.pexels.com/photos/1552103/pexels-photo-1552103.jpeg"
   }
 ]

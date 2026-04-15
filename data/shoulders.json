@@ -8,7 +8,8 @@
     "sets": 3,
     "repsMin": 12,
     "repsMax": 15,
-    "instructions": "Stand holding a dumbbell in each hand at your sides. With a slight bend in your elbows, raise both arms out to the sides until they reach shoulder height, then lower them back down slowly."
+    "instructions": "Stand holding a dumbbell in each hand at your sides. With a slight bend in your elbows, raise both arms out to the sides until they reach shoulder height, then lower them back down slowly.",
+    "pictureUrl": "https://images.pexels.com/photos/1552103/pexels-photo-1552103.jpeg"
   },
   {
     "id": "barbell-shoulder-press",
@@ -19,7 +20,8 @@
     "sets": 4,
     "repsMin": 6,
     "repsMax": 10,
-    "instructions": "Stand or sit with a barbell at shoulder height using an overhand grip just outside shoulder-width. Press the bar straight overhead until your arms are fully extended, then lower it back to shoulder height with control."
+    "instructions": "Stand or sit with a barbell at shoulder height using an overhand grip just outside shoulder-width. Press the bar straight overhead until your arms are fully extended, then lower it back to shoulder height with control.",
+    "pictureUrl": "https://images.pexels.com/photos/3837757/pexels-photo-3837757.jpeg"
   },
   {
     "id": "dumbbell-shoulder-press",
@@ -30,7 +32,8 @@
     "sets": 4,
     "repsMin": 8,
     "repsMax": 12,
-    "instructions": "Sit on a bench with back support holding a dumbbell in each hand at shoulder height, palms facing forward. Press both dumbbells overhead until your arms are fully extended, then lower them back to shoulder height."
+    "instructions": "Sit on a bench with back support holding a dumbbell in each hand at shoulder height, palms facing forward. Press both dumbbells overhead until your arms are fully extended, then lower them back to shoulder height.",
+    "pictureUrl": "https://images.pexels.com/photos/1552249/pexels-photo-1552249.jpeg"
   },
   {
     "id": "rear-delt-cable-fly",
@@ -41,7 +44,8 @@
     "sets": 3,
     "repsMin": 12,
     "repsMax": 15,
-    "instructions": "Set the cables to shoulder height and cross the handles. Stand in the center, grip the left handle with your right hand and the right handle with your left hand. With a slight bend in your elbows, pull the handles apart and back in a wide arc, squeezing your rear delts at the end of the movement, then return slowly."
+    "instructions": "Set the cables to shoulder height and cross the handles. Stand in the center, grip the left handle with your right hand and the right handle with your left hand. With a slight bend in your elbows, pull the handles apart and back in a wide arc, squeezing your rear delts at the end of the movement, then return slowly.",
+    "pictureUrl": "https://images.pexels.com/photos/4498606/pexels-photo-4498606.jpeg"
   },
   {
     "id": "pike-push-up",
@@ -52,6 +56,7 @@
     "sets": 3,
     "repsMin": 8,
     "repsMax": 15,
-    "instructions": "Start in a downward dog position with your hips raised high and your body forming an inverted V. Bend your elbows to lower the top of your head toward the floor, then press back up to the starting position."
+    "instructions": "Start in a downward dog position with your hips raised high and your body forming an inverted V. Bend your elbows to lower the top of your head toward the floor, then press back up to the starting position.",
+    "pictureUrl": "https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg"
   }
 ]

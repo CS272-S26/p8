@@ -8,7 +8,8 @@
     "sets": 3,
     "repsMin": 30,
     "repsMax": 60,
-    "instructions": "Start in a forearm plank with elbows directly under your shoulders and your body forming a straight line from head to heels. Brace your core and squeeze your glutes, holding the position for the target duration. Note: reps represent seconds held."
+    "instructions": "Start in a forearm plank with elbows directly under your shoulders and your body forming a straight line from head to heels. Brace your core and squeeze your glutes, holding the position for the target duration. Note: reps represent seconds held.",
+    "pictureUrl": "https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg"
   },
   {
     "id": "leg-raise",
@@ -19,7 +20,8 @@
     "sets": 3,
     "repsMin": 10,
     "repsMax": 15,
-    "instructions": "Lie flat on your back with legs straight and hands placed under your glutes for support. Keeping your legs straight, raise them up to 90 degrees, then lower them back down slowly without letting them touch the floor."
+    "instructions": "Lie flat on your back with legs straight and hands placed under your glutes for support. Keeping your legs straight, raise them up to 90 degrees, then lower them back down slowly without letting them touch the floor.",
+    "pictureUrl": "https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg"
   },
   {
     "id": "russian-twist",
@@ -30,7 +32,8 @@
     "sets": 3,
     "repsMin": 20,
     "repsMax": 30,
-    "instructions": "Sit on the floor with knees bent and feet slightly elevated. Lean back slightly to engage your core and clasp your hands together. Rotate your torso to the right, then to the left to complete one rep. Add a weight plate or dumbbell to increase difficulty."
+    "instructions": "Sit on the floor with knees bent and feet slightly elevated. Lean back slightly to engage your core and clasp your hands together. Rotate your torso to the right, then to the left to complete one rep. Add a weight plate or dumbbell to increase difficulty.",
+    "pictureUrl": "https://images.pexels.com/photos/3838389/pexels-photo-3838389.jpeg"
   },
   {
     "id": "hanging-leg-raise",
@@ -41,7 +44,8 @@
     "sets": 3,
     "repsMin": 8,
     "repsMax": 12,
-    "instructions": "Hang from a pull-up bar with an overhand grip and arms fully extended. Keeping your legs straight, raise them up until they are parallel to the floor or higher, then lower them back down slowly."
+    "instructions": "Hang from a pull-up bar with an overhand grip and arms fully extended. Keeping your legs straight, raise them up until they are parallel to the floor or higher, then lower them back down slowly.",
+    "pictureUrl": "https://images.pexels.com/photos/1552103/pexels-photo-1552103.jpeg"
   },
   {
     "id": "hanging-knee-raise",
@@ -52,7 +56,8 @@
     "sets": 3,
     "repsMin": 10,
     "repsMax": 15,
-    "instructions": "Hang from a pull-up bar with an overhand grip and arms fully extended. Bend your knees and raise them toward your chest, then lower them back down with control. This is a more accessible variation of the hanging leg raise."
+    "instructions": "Hang from a pull-up bar with an overhand grip and arms fully extended. Bend your knees and raise them toward your chest, then lower them back down with control. This is a more accessible variation of the hanging leg raise.",
+    "pictureUrl": "https://images.pexels.com/photos/1552103/pexels-photo-1552103.jpeg"
   },
   {
     "id": "crunch",
@@ -63,7 +68,8 @@
     "sets": 3,
     "repsMin": 15,
     "repsMax": 20,
-    "instructions": "Lie flat on your back with knees bent and feet flat on the floor. Place your hands behind your head without interlacing your fingers. Curl your shoulders off the floor by contracting your abs, then lower back down slowly."
+    "instructions": "Lie flat on your back with knees bent and feet flat on the floor. Place your hands behind your head without interlacing your fingers. Curl your shoulders off the floor by contracting your abs, then lower back down slowly.",
+    "pictureUrl": "https://images.pexels.com/photos/1552249/pexels-photo-1552249.jpeg"
   },
   {
     "id": "dead-bug",
@@ -74,7 +80,8 @@
     "sets": 3,
     "repsMin": 8,
     "repsMax": 10,
-    "instructions": "Lie flat on your back with arms extended toward the ceiling and knees bent at 90 degrees directly above your hips. Slowly lower your right arm and left leg toward the floor simultaneously while keeping your lower back pressed into the floor, then return and repeat on the other side."
+    "instructions": "Lie flat on your back with arms extended toward the ceiling and knees bent at 90 degrees directly above your hips. Slowly lower your right arm and left leg toward the floor simultaneously while keeping your lower back pressed into the floor, then return and repeat on the other side.",
+    "pictureUrl": "https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg"
   },
   {
     "id": "bicycle-crunch",
@@ -85,6 +92,7 @@
     "sets": 3,
     "repsMin": 20,
     "repsMax": 30,
-    "instructions": "Lie flat on your back with hands behind your head and legs raised. Bring your right elbow toward your left knee while extending your right leg, then switch sides in a pedaling motion. Each side counts as one rep."
+    "instructions": "Lie flat on your back with hands behind your head and legs raised. Bring your right elbow toward your left knee while extending your right leg, then switch sides in a pedaling motion. Each side counts as one rep.",
+    "pictureUrl": "https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg"
   }
 ]

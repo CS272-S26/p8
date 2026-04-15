@@ -8,7 +8,8 @@
     "sets": 4,
     "repsMin": 8,
     "repsMax": 12,
-    "instructions": "Sit at a lat pulldown machine and grip the bar slightly wider than shoulder-width. Pull the bar down to your upper chest while leaning back slightly, then return it slowly to the starting position."
+    "instructions": "Sit at a lat pulldown machine and grip the bar slightly wider than shoulder-width. Pull the bar down to your upper chest while leaning back slightly, then return it slowly to the starting position.",
+    "pictureUrl": "https://images.pexels.com/photos/1552249/pexels-photo-1552249.jpeg"
   },
   {
     "id": "seated-cable-row",
@@ -19,7 +20,8 @@
     "sets": 4,
     "repsMin": 8,
     "repsMax": 12,
-    "instructions": "Sit at a cable row machine with your feet on the platform and knees slightly bent. Pull the handle into your lower abdomen while keeping your back straight and chest up, then return slowly."
+    "instructions": "Sit at a cable row machine with your feet on the platform and knees slightly bent. Pull the handle into your lower abdomen while keeping your back straight and chest up, then return slowly.",
+    "pictureUrl": "https://images.pexels.com/photos/4498573/pexels-photo-4498573.jpeg"
   },
   {
     "id": "barbell-row",
@@ -30,7 +32,8 @@
     "sets": 4,
     "repsMin": 6,
     "repsMax": 10,
-    "instructions": "Hinge at the hips with a slight bend in your knees and grip the barbell just outside shoulder-width. Pull the bar into your lower abdomen, squeezing your shoulder blades together at the top, then lower it back down with control."
+    "instructions": "Hinge at the hips with a slight bend in your knees and grip the barbell just outside shoulder-width. Pull the bar into your lower abdomen, squeezing your shoulder blades together at the top, then lower it back down with control.",
+    "pictureUrl": "https://images.pexels.com/photos/2261485/pexels-photo-2261485.jpeg"
   },
   {
     "id": "dumbbell-row",
@@ -41,7 +44,8 @@
     "sets": 3,
     "repsMin": 8,
     "repsMax": 12,
-    "instructions": "Place one knee and hand on a bench for support. With your other hand, pull a dumbbell up toward your hip, keeping your elbow close to your body and your back flat, then lower it slowly."
+    "instructions": "Place one knee and hand on a bench for support. With your other hand, pull a dumbbell up toward your hip, keeping your elbow close to your body and your back flat, then lower it slowly.",
+    "pictureUrl": "https://images.pexels.com/photos/3838389/pexels-photo-3838389.jpeg"
   },
   {
     "id": "pull-up",
@@ -52,6 +56,7 @@
     "sets": 3,
     "repsMin": 5,
     "repsMax": 10,
-    "instructions": "Hang from a pull-up bar with an overhand grip slightly wider than shoulder-width. Pull yourself up until your chin clears the bar, then lower yourself back down fully before the next rep."
+    "instructions": "Hang from a pull-up bar with an overhand grip slightly wider than shoulder-width. Pull yourself up until your chin clears the bar, then lower yourself back down fully before the next rep.",
+    "pictureUrl": "https://images.pexels.com/photos/1552103/pexels-photo-1552103.jpeg"
   }
 ]

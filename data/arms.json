@@ -8,7 +8,8 @@
     "sets": 3,
     "repsMin": 10,
     "repsMax": 12,
-    "instructions": "Stand holding a dumbbell in each hand with palms facing forward. Keeping your elbows pinned to your sides, curl both dumbbells up toward your shoulders, then lower them back down slowly."
+    "instructions": "Stand holding a dumbbell in each hand with palms facing forward. Keeping your elbows pinned to your sides, curl both dumbbells up toward your shoulders, then lower them back down slowly.",
+    "pictureUrl": "https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg"
   },
   {
     "id": "barbell-bicep-curl",
@@ -19,7 +20,8 @@
     "sets": 4,
     "repsMin": 8,
     "repsMax": 10,
-    "instructions": "Stand holding a barbell with an underhand grip at shoulder-width. Keeping your elbows stationary at your sides, curl the bar up toward your chest, then lower it back down with control."
+    "instructions": "Stand holding a barbell with an underhand grip at shoulder-width. Keeping your elbows stationary at your sides, curl the bar up toward your chest, then lower it back down with control.",
+    "pictureUrl": "https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg"
   },
   {
     "id": "preacher-curl",
@@ -30,7 +32,8 @@
     "sets": 3,
     "repsMin": 10,
     "repsMax": 12,
-    "instructions": "Sit at a preacher bench and rest the back of your upper arms on the pad. Grip the bar with an underhand grip and curl it up toward your shoulders, then lower it slowly until your arms are fully extended."
+    "instructions": "Sit at a preacher bench and rest the back of your upper arms on the pad. Grip the bar with an underhand grip and curl it up toward your shoulders, then lower it slowly until your arms are fully extended.",
+    "pictureUrl": "https://images.pexels.com/photos/416717/pexels-photo-416717.jpeg"
   },
   {
     "id": "skull-crusher",
@@ -41,7 +44,8 @@
     "sets": 3,
     "repsMin": 10,
     "repsMax": 12,
-    "instructions": "Lie flat on a bench holding a barbell with an overhand grip directly above your chest. Keeping your upper arms stationary, bend your elbows to lower the bar toward your forehead, then press back up to the starting position."
+    "instructions": "Lie flat on a bench holding a barbell with an overhand grip directly above your chest. Keeping your upper arms stationary, bend your elbows to lower the bar toward your forehead, then press back up to the starting position.",
+    "pictureUrl": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg"
   },
   {
     "id": "tricep-pushdown",
@@ -52,7 +56,8 @@
     "sets": 3,
     "repsMin": 12,
     "repsMax": 15,
-    "instructions": "Stand at a cable machine with a rope or bar attachment set at the top. Keeping your elbows pinned to your sides, push the attachment downward until your arms are fully extended, then return slowly."
+    "instructions": "Stand at a cable machine with a rope or bar attachment set at the top. Keeping your elbows pinned to your sides, push the attachment downward until your arms are fully extended, then return slowly.",
+    "pictureUrl": "https://images.pexels.com/photos/4498606/pexels-photo-4498606.jpeg"
   },
   {
     "id": "hammer-curl",
@@ -63,7 +68,8 @@
     "sets": 3,
     "repsMin": 10,
     "repsMax": 12,
-    "instructions": "Stand holding a dumbbell in each hand with palms facing each other. Keeping your elbows pinned to your sides, curl both dumbbells up toward your shoulders without rotating your wrists, then lower them back down."
+    "instructions": "Stand holding a dumbbell in each hand with palms facing each other. Keeping your elbows pinned to your sides, curl both dumbbells up toward your shoulders without rotating your wrists, then lower them back down.",
+    "pictureUrl": "https://images.pexels.com/photos/1552106/pexels-photo-1552106.jpeg"
   },
   {
     "id": "tricep-overhead-extension",
@@ -74,7 +80,8 @@
     "sets": 3,
     "repsMin": 10,
     "repsMax": 12,
-    "instructions": "Stand or sit holding a single dumbbell with both hands overhead, arms fully extended. Keeping your upper arms close to your head, lower the dumbbell behind your head by bending your elbows, then press back up."
+    "instructions": "Stand or sit holding a single dumbbell with both hands overhead, arms fully extended. Keeping your upper arms close to your head, lower the dumbbell behind your head by bending your elbows, then press back up.",
+    "pictureUrl": "https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg"
   },
   {
     "id": "close-grip-bench-press",
@@ -85,6 +92,7 @@
     "sets": 4,
     "repsMin": 8,
     "repsMax": 10,
-    "instructions": "Lie flat on a bench and grip the barbell with hands about shoulder-width apart. Lower the bar to your lower chest, keeping your elbows tucked close to your body, then press back up."
+    "instructions": "Lie flat on a bench and grip the barbell with hands about shoulder-width apart. Lower the bar to your lower chest, keeping your elbows tucked close to your body, then press back up.",
+    "pictureUrl": "https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg"
   }
 ]

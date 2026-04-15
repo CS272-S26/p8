@@ -30,6 +30,21 @@ function appendExerciseComponent(backData) {
     // newAuthorPagesNode.style.fontWeight = 200;
     // newAuthorPagesNode.innerText = `by ${bookData.author} | ${bookData.numPages} pages`;
 
+        //add image
+    const newImgNode = document.createElement("img");
+
+    newImgNode.src = backData.pictureUrl; 
+    newImgNode.alt = backData.name;
+    newImgNode.style.height = "200px";
+    newImgNode.style.objectFit = "cover";
+
+    const wrapper = document.createElement("div");
+    wrapper.className = "exercise-card";
+    wrapper.appendChild(newImgNode);
+
+    newCardDivNode.appendChild(wrapper);
+    //add image end 
+
     const newDescNode = document.createElement("p");
     newDescNode.innerText = backData.instructions.slice(0, 100);
 
