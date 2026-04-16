@@ -23,3 +23,19 @@ h2 {
   }
 }
 
+.footer{
+  border-radius: 4px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p{
+  padding-left: 20px;
+}
+

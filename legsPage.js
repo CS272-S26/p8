@@ -34,7 +34,7 @@ function appendExerciseComponent(legsData) {
     const newImgNode = document.createElement("img");
 
     newImgNode.src = legsData.pictureUrl; 
-    newImgNode.alt = legsData.name;
+    newImgNode.alt = legsData.name + " picture";
     newImgNode.style.height = "200px";
     newImgNode.style.objectFit = "cover";
 
