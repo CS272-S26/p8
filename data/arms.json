@@ -74,7 +74,7 @@
   {
     "id": "tricep-overhead-extension",
     "name": "Tricep Overhead Extension",
-    "equipment": ["Dumbbell"],
+    "equipment": ["Dumbbells"],
     "primaryMuscles": ["Triceps Brachii"],
     "secondaryMuscles": [],
     "sets": 3,
