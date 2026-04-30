@@ -1,3 +1,4 @@
+const FAVORITES_KEY = "favoriteExercises";
 const exerciseContainer = document.getElementById("exercise-detail")
 
 const params = new URLSearchParams(window.location.search);
@@ -18,18 +19,66 @@ fetch(`data/${muscle}.json`)
     })
     .catch(err => console.error(err));
 
+function getFavoriteRefs() {
+    const raw = localStorage.getItem(FAVORITES_KEY);
+    if (!raw) return [];
+    try {
+        return JSON.parse(raw);
+    } catch (err) {
+        console.error("Failed to parse favorites from localStorage", err);
+        return [];
+    }
+}
+
+function saveFavoriteRefs(favorites) {
+    localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
+}
+
+function isFavorite(muscle, id) {
+    return getFavoriteRefs().some(item => item.muscle === muscle && item.id === id);
+}
+
+function toggleFavorite(muscle, id) {
+    const favorites = getFavoriteRefs();
+    const index = favorites.findIndex(item => item.muscle === muscle && item.id === id);
+    if (index >= 0) {
+        favorites.splice(index, 1);
+    } else {
+        favorites.push({ muscle, id });
+    }
+    saveFavoriteRefs(favorites);
+}
+
 function renderExercise(exercise) {
     const title = document.createElement("h1");
     title.innerText = exercise.name;
+
+    const favoriteButton = document.createElement("button");
+    favoriteButton.type = "button";
+    favoriteButton.className = "btn btn-outline-primary mb-3";
+
+    function updateFavoriteButton() {
+        if (isFavorite(muscle, exercise.id)) {
+            favoriteButton.innerHTML = `<i class="bi bi-star-fill"></i> Remove from Favorites`;
+            favoriteButton.className = "btn btn-warning mb-3";
+        } else {
+            favoriteButton.innerHTML = `<i class="bi bi-star"></i> Add to Favorites`;
+            favoriteButton.className = "btn btn-outline-primary mb-3";
+        }
+    }
+
+    favoriteButton.addEventListener("click", () => {
+        toggleFavorite(muscle, exercise.id);
+        updateFavoriteButton();
+    });
+
+    updateFavoriteButton();
 
     const newImgNode = document.createElement("img");
     newImgNode.src = exercise.pictureUrl; 
     newImgNode.alt = exercise.name;
     newImgNode.style.height = "300px";
     newImgNode.style.objectFit = "cover";
-    const wrapper = document.createElement("div");
-    wrapper.className = "exercise-card";
-    wrapper.appendChild(newImgNode);
 
     const instructions = document.createElement("p");
     instructions.innerText = exercise.instructions;
@@ -59,6 +108,7 @@ function renderExercise(exercise) {
     secondaryMuscle.innerText = exercise.secondaryMuscles.join(", ");
 
     exerciseContainer.appendChild(title);
+    exerciseContainer.appendChild(favoriteButton);
     exerciseContainer.appendChild(newImgNode);
     exerciseContainer.appendChild(instructions);
     exerciseContainer.appendChild(setsHeader);
