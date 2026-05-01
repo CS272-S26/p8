@@ -1,5 +1,4 @@
 async function generateWorkout() {
-
     const selectedMuscles = [];
     if (document.getElementById("muscle-chest").checked) selectedMuscles.push("chest");
     if (document.getElementById("muscle-back").checked) selectedMuscles.push("back");

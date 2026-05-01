@@ -45,7 +45,7 @@
     "repsMin": 8,
     "repsMax": 12,
     "instructions": "Set the bench to 30-45 degrees. Hold a dumbbell in each hand at shoulder level and press upward, bringing the dumbbells slightly together at the top before lowering back down.",
-    "pictureUrl": "https://images.pexels.com/photos/1552106/pexels-photo-1552106.jpeg"
+    "pictureUrl": "https://images.pexels.com/photos/18060077/pexels-photo-18060077.jpeg"
   },
   {
     "id": "dumbbell-chest-fly",
@@ -57,7 +57,7 @@
     "repsMin": 10,
     "repsMax": 15,
     "instructions": "Lie flat on a bench with a dumbbell in each hand held above your chest, palms facing each other. With a slight bend in your elbows, lower the dumbbells out to your sides in a wide arc until you feel a stretch in your chest, then bring them back up.",
-    "pictureUrl": "https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg"
+    "pictureUrl": "https://images.pexels.com/photos/3839310/pexels-photo-3839310.jpeg"
   },
   {
     "id": "cable-chest-fly",
@@ -69,7 +69,7 @@
     "repsMin": 12,
     "repsMax": 15,
     "instructions": "Set the pulleys to shoulder height. Stand in the center and grip a handle in each hand. With a slight forward lean and soft bend in your elbows, bring the handles together in a wide arc in front of your chest, then return slowly.",
-    "pictureUrl": "https://images.pexels.com/photos/4498606/pexels-photo-4498606.jpeg"
+    "pictureUrl": "https://images.pexels.com/photos/5327510/pexels-photo-5327510.jpeg"
   },
   {
     "id": "push-up",
@@ -81,7 +81,7 @@
     "repsMin": 10,
     "repsMax": 20,
     "instructions": "Start in a high plank with hands slightly wider than shoulder-width. Lower your chest to just above the floor keeping your body in a straight line, then press back up.",
-    "pictureUrl": "https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg"
+    "pictureUrl": "https://images.pexels.com/photos/14623739/pexels-photo-14623739.jpeg"
   },
   {
     "id": "dips",
@@ -93,6 +93,6 @@
     "repsMin": 8,
     "repsMax": 12,
     "instructions": "Grip the parallel bars and support yourself with arms extended. Lean your torso slightly forward and lower yourself until your upper arms are parallel to the floor, then press back up.",
-    "pictureUrl": "https://images.pexels.com/photos/1552103/pexels-photo-1552103.jpeg"
+    "pictureUrl": "https://images.pexels.com/photos/4162488/pexels-photo-4162488.jpeg"
   }
 ]

@@ -9,7 +9,7 @@
     "repsMin": 30,
     "repsMax": 60,
     "instructions": "Start in a forearm plank with elbows directly under your shoulders and your body forming a straight line from head to heels. Brace your core and squeeze your glutes, holding the position for the target duration. Note: reps represent seconds held.",
-    "pictureUrl": "https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg"
+    "pictureUrl": "https://images.pexels.com/photos/4775196/pexels-photo-4775196.jpeg"
   },
   {
     "id": "leg-raise",
@@ -21,7 +21,7 @@
     "repsMin": 10,
     "repsMax": 15,
     "instructions": "Lie flat on your back with legs straight and hands placed under your glutes for support. Keeping your legs straight, raise them up to 90 degrees, then lower them back down slowly without letting them touch the floor.",
-    "pictureUrl": "https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg"
+    "pictureUrl": "https://images.pexels.com/photos/4803717/pexels-photo-4803717.jpeg"
   },
   {
     "id": "russian-twist",
@@ -33,7 +33,7 @@
     "repsMin": 20,
     "repsMax": 30,
     "instructions": "Sit on the floor with knees bent and feet slightly elevated. Lean back slightly to engage your core and clasp your hands together. Rotate your torso to the right, then to the left to complete one rep. Add a weight plate or dumbbell to increase difficulty.",
-    "pictureUrl": "https://images.pexels.com/photos/3838389/pexels-photo-3838389.jpeg"
+    "pictureUrl": "https://images.pexels.com/photos/5128329/pexels-photo-5128329.jpeg"
   },
   {
     "id": "hanging-leg-raise",
@@ -45,7 +45,7 @@
     "repsMin": 8,
     "repsMax": 12,
     "instructions": "Hang from a pull-up bar with an overhand grip and arms fully extended. Keeping your legs straight, raise them up until they are parallel to the floor or higher, then lower them back down slowly.",
-    "pictureUrl": "https://images.pexels.com/photos/1552103/pexels-photo-1552103.jpeg"
+    "pictureUrl": "https://images.pexels.com/photos/5799860/pexels-photo-5799860.jpeg"
   },
   {
     "id": "hanging-knee-raise",
@@ -57,7 +57,7 @@
     "repsMin": 10,
     "repsMax": 15,
     "instructions": "Hang from a pull-up bar with an overhand grip and arms fully extended. Bend your knees and raise them toward your chest, then lower them back down with control. This is a more accessible variation of the hanging leg raise.",
-    "pictureUrl": "https://images.pexels.com/photos/1552103/pexels-photo-1552103.jpeg"
+    "pictureUrl": "https://images.pexels.com/photos/6455946/pexels-photo-6455946.jpeg"
   },
   {
     "id": "crunch",

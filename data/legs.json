@@ -9,7 +9,7 @@
     "repsMin": 15,
     "repsMax": 20,
     "instructions": "Stand with feet shoulder-width apart and toes slightly turned out. Push your hips back and bend your knees to lower yourself until your thighs are parallel to the floor, then drive through your heels to stand back up.",
-    "pictureUrl": "https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg"
+    "pictureUrl": "https://images.pexels.com/photos/8401827/pexels-photo-8401827.jpeg"
   },
   {
     "id": "bodyweight-lunge",
@@ -21,7 +21,7 @@
     "repsMin": 10,
     "repsMax": 15,
     "instructions": "Stand with feet together. Step one foot forward and lower your back knee toward the floor until both knees are at roughly 90 degrees, then push through your front foot to return to the starting position. Alternate legs each rep.",
-    "pictureUrl": "https://images.pexels.com/photos/416778/pexels-photo-416778.jpeg"
+    "pictureUrl": "https://images.pexels.com/photos/6339676/pexels-photo-6339676.jpeg"
   },
   {
     "id": "barbell-squat",
@@ -57,7 +57,7 @@
     "repsMin": 8,
     "repsMax": 12,
     "instructions": "Sit on the floor with your upper back against a bench and a barbell across your hips. Plant your feet flat on the floor hip-width apart. Drive through your heels to thrust your hips upward until your body forms a straight line from shoulders to knees, then lower back down.",
-    "pictureUrl": "https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg"
+    "pictureUrl": "https://images.pexels.com/photos/31028213/pexels-photo-31028213.jpeg"
   },
   {
     "id": "hip-bridge",
@@ -69,6 +69,6 @@
     "repsMin": 15,
     "repsMax": 20,
     "instructions": "Lie flat on your back with knees bent and feet flat on the floor hip-width apart. Drive through your heels to lift your hips off the floor until your body forms a straight line from shoulders to knees, squeeze your glutes at the top, then lower back down.",
-    "pictureUrl": "https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg"
+    "pictureUrl": "https://images.pexels.com/photos/6295752/pexels-photo-6295752.jpeg"
   }
 ]

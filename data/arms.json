@@ -21,7 +21,7 @@
     "repsMin": 8,
     "repsMax": 10,
     "instructions": "Stand holding a barbell with an underhand grip at shoulder-width. Keeping your elbows stationary at your sides, curl the bar up toward your chest, then lower it back down with control.",
-    "pictureUrl": "https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg"
+    "pictureUrl": "https://images.pexels.com/photos/5327467/pexels-photo-5327467.jpeg"
   },
   {
     "id": "preacher-curl",
@@ -33,7 +33,7 @@
     "repsMin": 10,
     "repsMax": 12,
     "instructions": "Sit at a preacher bench and rest the back of your upper arms on the pad. Grip the bar with an underhand grip and curl it up toward your shoulders, then lower it slowly until your arms are fully extended.",
-    "pictureUrl": "https://images.pexels.com/photos/416717/pexels-photo-416717.jpeg"
+    "pictureUrl": "https://images.pexels.com/photos/14524649/pexels-photo-14524649.jpeg"
   },
   {
     "id": "skull-crusher",
@@ -57,7 +57,7 @@
     "repsMin": 12,
     "repsMax": 15,
     "instructions": "Stand at a cable machine with a rope or bar attachment set at the top. Keeping your elbows pinned to your sides, push the attachment downward until your arms are fully extended, then return slowly.",
-    "pictureUrl": "https://images.pexels.com/photos/4498606/pexels-photo-4498606.jpeg"
+    "pictureUrl": "https://images.pexels.com/photos/17559311/pexels-photo-17559311.jpeg"
   },
   {
     "id": "hammer-curl",
@@ -69,7 +69,7 @@
     "repsMin": 10,
     "repsMax": 12,
     "instructions": "Stand holding a dumbbell in each hand with palms facing each other. Keeping your elbows pinned to your sides, curl both dumbbells up toward your shoulders without rotating your wrists, then lower them back down.",
-    "pictureUrl": "https://images.pexels.com/photos/1552106/pexels-photo-1552106.jpeg"
+    "pictureUrl": "https://images.pexels.com/photos/5837271/pexels-photo-5837271.jpeg"
   },
   {
     "id": "tricep-overhead-extension",
@@ -93,6 +93,6 @@
     "repsMin": 8,
     "repsMax": 10,
     "instructions": "Lie flat on a bench and grip the barbell with hands about shoulder-width apart. Lower the bar to your lower chest, keeping your elbows tucked close to your body, then press back up.",
-    "pictureUrl": "https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg"
+    "pictureUrl": "https://images.pexels.com/photos/3837757/pexels-photo-3837757.jpeg"
   }
 ]
