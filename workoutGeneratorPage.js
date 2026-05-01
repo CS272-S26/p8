@@ -1,3 +1,38 @@
+const FAVORITES_KEY = "favoriteExercises";
+
+function getFavoriteRefs() {
+    const raw = localStorage.getItem(FAVORITES_KEY);
+    if (!raw) return [];
+    try {
+        return JSON.parse(raw);
+    } catch (err) {
+        console.error("Failed to parse favorites from localStorage", err);
+        return [];
+    }
+}
+
+function mergeUniqueById(arr1, arr2) {
+    const seen = new Map();
+    arr1.concat(arr2).forEach(item => {
+        if (!seen.has(item.id)) {
+            seen.set(item.id, item);
+        }
+    });
+    return Array.from(seen.values());
+}
+
+function isFavorite(muscle, id) {
+    return getFavoriteRefs().some(item => item.muscle === muscle && item.id === id);
+}
+
+function addFavoriteRef(muscle, id) {
+    const favorites = getFavoriteRefs();
+    if (!favorites.some(item => item.muscle === muscle && item.id === id)) {
+        favorites.push({ muscle, id });
+        localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
+    }
+}
+
 async function generateWorkout() {
     const selectedMuscles = [];
     if (document.getElementById("muscle-chest").checked) selectedMuscles.push("chest");
@@ -15,6 +50,8 @@ async function generateWorkout() {
     if (document.getElementById("eq-pullupbar").checked) selectedEquipment.push("Pull-Up Bar");
 
     const numExercises = parseInt(document.getElementById("num-exercises").value);
+    const includeFavorites = document.getElementById("include-favorites").checked;
+    const favoriteRefs = includeFavorites ? getFavoriteRefs() : [];
 
     if (selectedMuscles.length === 0) {
         alert("Please select at least one muscle group.");
@@ -34,7 +71,21 @@ async function generateWorkout() {
             return exercise.equipment.some(eq => selectedEquipment.includes(eq));
         });
 
-        const picked = pickRandom(filtered, numExercises);
+        let candidates = filtered;
+        if (includeFavorites) {
+            const favoriteIds = favoriteRefs
+                .filter(ref => ref.muscle === muscle)
+                .map(ref => ref.id);
+
+            if (favoriteIds.length > 0) {
+                const favoriteCandidates = exercises.filter(exercise => {
+                    return favoriteIds.includes(exercise.id) && exercise.equipment.some(eq => selectedEquipment.includes(eq));
+                });
+                candidates = mergeUniqueById(filtered, favoriteCandidates);
+            }
+        }
+
+        const picked = pickRandom(candidates, numExercises);
 
         renderGroup(muscle, picked, output);
     }
@@ -70,9 +121,22 @@ function renderGroup(muscle, exercises, output) {
         const equipment = document.createElement("p");
         equipment.innerText = `Equipment: ${exercise.equipment.join(", ")}`;
 
+        const favoriteButton = document.createElement("button");
+        favoriteButton.type = "button";
+        favoriteButton.className = "btn btn-outline-secondary btn-sm";
+        favoriteButton.innerText = isFavorite(muscle, exercise.id) ? "Already in Favorites" : "Add to Favorite";
+        favoriteButton.disabled = isFavorite(muscle, exercise.id);
+        favoriteButton.addEventListener("click", () => {
+            addFavoriteRef(muscle, exercise.id);
+            favoriteButton.innerText = "Added to Favorites";
+            favoriteButton.className = "btn btn-success btn-sm";
+            favoriteButton.disabled = true;
+        });
+
         card.appendChild(name);
         card.appendChild(sets);
         card.appendChild(equipment);
+        card.appendChild(favoriteButton);
         output.appendChild(card);
     });
 }
