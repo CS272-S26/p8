@@ -4,6 +4,7 @@ h2 {
 
 .card {
     cursor: pointer;
+    width: 320px;
 }
 
 .gym-background-pic{
